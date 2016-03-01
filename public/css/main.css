@@ -1,10 +1,6 @@
 /*Font Loded*/
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,700);
 
-body{
-  background: url(../../../../Downloads/pricing-table-st-fw1/assets/img/bg.jpg);
-}
-
 .btn-custom {
   color: #bdc3c7;
   font-size: 18px;
@@ -23,12 +19,12 @@ body{
   font-family: 'Robot', sans-serif;
 }
 #pricing-table .pricing .pricing-table {
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 #pricing-table .pricing .pricing-table .pricing-header {
   position: relative;
   background: #34495e;
-  padding: 22px 22px;
+  padding: 30px 30px;
   text-align: center;
   border-top-right-radius: 4px;
   border-top-left-radius: 4px;
@@ -41,6 +37,27 @@ body{
   text-align: center;
   font-weight: 700;
 }
+#pricing-table .pricing .pricing-table-table {
+  padding-bottom: 30px;
+}
+#pricing-table .pricing .pricing-table-table .pricing-header-table {
+  position: relative;
+  background: #D3D3D3;
+  padding: 22px 22px;
+  text-align: center;
+  border-top-right-radius: 55px;
+  border-bottom-left-radius: 55px;
+}
+#pricing-table .pricing .pricing-table-table .pricing-header-table .pricing-title-table {
+  color: #34495e;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 1000;
+}
+
+
 #pricing-table .pricing .pricing-table .pricing-header .pricing-rate {
   font-size: 70px;
   font-weight: 700;
