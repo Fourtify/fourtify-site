@@ -12,6 +12,7 @@ html.no-js(lang="")
         meta(name="author", content="themebite.com")
         // Essential CSS Files
         link(rel="stylesheet", href="css/normalize.css")
+        link(rel="stylesheet", href="css/signup.css")
         link(rel="stylesheet", href="css/font-awesome.min.css")
         link(rel="stylesheet", href="css/animate.css")
         link(rel="stylesheet", href="css/simplelightbox.min.css")
@@ -33,6 +34,7 @@ html.no-js(lang="")
         link(href="https://fonts.googleapis.com/css?family=Roboto:700,500,400", rel="stylesheet", type="text/css")
         // Essential JS Files
         script(src="js/vendor/jquery-1.11.3.min.js")
+        script(src="js/signup.js")
         script(src="js/vendor/modernizr-2.8.3.min.js")
         // IE9 Scripts
         //if lt IE 9
@@ -88,10 +90,60 @@ html.no-js(lang="")
                     .col-sm-6.col-xs-12.no-padding
                         // About Us Left
                         .about-us-left
-                            // About Us Info
-                            h2.section-title-left Our Mission
-                            p
-                                | To fortify client software to provide high quality user experience and code longevity.
+                            html
+                                body
+                                    .form
+                                        ul.tab-group
+                                            li.tab.active
+                                                a(href='#signup') Sign Up
+                                            li.tab
+                                                a(href='#login') Log In
+                                        .tab-content
+                                            #signup
+                                                h1 Sign Up for Free
+                                                form(action='/', method='post')
+                                                    .top-row
+                                                        .field-wrap
+                                                            label
+                                                                | First Name
+                                                                span.req *
+                                                            input(type='text', required='', autocomplete='off')
+                                                        .field-wrap
+                                                            label
+                                                                | Last Name
+                                                                span.req *
+                                                            input(type='text', required='', autocomplete='off')
+                                                    .field-wrap
+                                                        label
+                                                            | Email Address
+                                                            span.req *
+                                                        input(type='email', required='', autocomplete='off')
+                                                    .field-wrap
+                                                        label
+                                                            | Set A Password
+                                                            span.req *
+                                                        input(type='password', required='', autocomplete='off')
+                                                    button.button.button-block(type='submit') Get Started
+                                            #login
+                                                h1 Welcome Back!
+                                                form(action='/', method='post')
+                                                    .field-wrap
+                                                        label
+                                                            | Email Address
+                                                            span.req *
+                                                        input(type='email', required='', autocomplete='off')
+                                                    .field-wrap
+                                                        label
+                                                            | Password
+                                                            span.req *
+                                                        input(type='password', required='', autocomplete='off')
+                                                    p.forgot
+                                                        a(href='#') Forgot Password?
+                                                    button.button.button-block Log In
+                                        // tab-content
+                                    // /form
+
+
                     .col-sm-6.col-xs-12.no-padding
                         // About Us Right
                         .about-us-right
