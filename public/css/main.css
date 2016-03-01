@@ -43,18 +43,22 @@
 #pricing-table .pricing .pricing-table-table .pricing-header-table {
   position: relative;
   background: #D3D3D3;
-  padding: 22px 22px;
+  padding: 22px;
   text-align: center;
   border-top-right-radius: 55px;
   border-bottom-left-radius: 55px;
 }
 #pricing-table .pricing .pricing-table-table .pricing-header-table .pricing-title-table {
   color: #34495e;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 25%;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 16px;
   text-align: center;
-  font-weight: 1000;
+  font-weight: 900;
 }
 
 
