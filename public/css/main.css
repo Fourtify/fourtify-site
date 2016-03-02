@@ -37,19 +37,20 @@
   text-align: center;
   font-weight: 700;
 }
-#pricing-table .pricing .pricing-table-table {
+#features .feature-table {
   padding-bottom: 30px;
 }
-#pricing-table .pricing .pricing-table-table .pricing-header-table {
+#features .feature-table .feature-header {
   position: relative;
-  background: #D3D3D3;
+  background: #226791;
   padding: 22px;
+  padding-bottom: 22px;
   text-align: center;
   border-top-right-radius: 55px;
   border-bottom-left-radius: 55px;
 }
-#pricing-table .pricing .pricing-table-table .pricing-header-table .pricing-title-table {
-  color: #34495e;
+#features .feature-table .feature-header .feature-title {
+  color: #FFF;
   position: absolute;
   left: 0;
   right: 0;
