@@ -64,39 +64,43 @@ html.no-js(lang="")
                             li
                                 a.page-scroll(href="/#contact") Contact Us
         // Navigation end
-        // About Us Section
-        section#about.about-us
+
+        // Signup Section
+        section#signup.signup-section
             .container-fluid
                 .row
                     .col-md-8.col-md-offset-2
                         form.col-md-12(action='/', method='post')
                             .col-md-12
-                                h1 Sign Up for Free
-                            .col-md-12
+                                h1.section-title.signup-title Your Information
+                            .col-md-12.signup-table
                                 .field-wrap.col-md-6
-                                    input(type='text', required, autocomplete='off', name="fname", placeholder="First Name")
+                                    input.signup-input(type='text', required, autocomplete='off', name="fname", placeholder="First Name")
                                 .field-wrap.col-md-6
-                                    input(type='text', required, autocomplete='off', name="lname", placeholder="Last Name")
+                                    input.signup-input(type='text', required, autocomplete='off', name="lname", placeholder="Last Name")
                                 .field-wrap.col-md-12
-                                    input(type='email', required, autocomplete='off', name="email", placeholder="Email Address")
+                                    input.signup-input(type='email', required, autocomplete='off', name="email", placeholder="Email Address")
                                 .field-wrap.col-md-12
-                                    input(type='password', required, autocomplete='off', name="password", placeholder="Password")
+                                    input.signup-input(type='password', required, autocomplete='off', name="password", placeholder="Password")
                                 .field-wrap.col-md-12
-                                    input(type='password', required, autocomplete='off', name="cpassword", placeholder="Confirm Password")
+                                    input.signup-input(type='password', required, autocomplete='off', name="cpassword", placeholder="Confirm Password")
                                 .field-wrap.col-md-12
-                                    input(type='text', required, autocomplete='off', name="company", placeholder="Company Name")
+                                    input.signup-input(type='text', required, autocomplete='off', name="company", placeholder="Company Name")
                                 .field-wrap
                                     .col-md-7
-                                        input(type='text', required, autocomplete='off', name="domain", placeholder="Domain / Sub-domain")
+                                        input.signup-input(type='text', required, autocomplete='off', name="domain", placeholder="Domain / Sub-domain")
                                     .col-md-5.pull-left
-                                        | .fourtify.us
+                                        p.signup-host .fourtify.us
+                            b
                             .col-md-12
-                                h1 Credit Card Information
+                                h1.section-title.signup-title Credit Card Information
                             .col-md-12
                                 .field-wrap.col-md-12
-                                    input(type='text', autocomplete='off', name="ccnum", placeholder="Card Number")
+                                    input.signup-input(type='text', autocomplete='off', name="ccnum",
+                                    placeholder="Card Number")
                                 .field-wrap.col-md-12
-                                    input(type='text', autocomplete='off', name="cvv", placeholder="CVV/CCV2 (3 digit number)")
+                                    input.signup-input(type='text', autocomplete='off', name="cvv",
+                                    placeholder="CVV/CCV2")
                             .col-md-12
                                 h1#error.error(style="color:red")
                                 h1#success.success(style="color:green")
