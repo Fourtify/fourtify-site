@@ -77,102 +77,53 @@ html.no-js(lang="")
                 .container
                     .row
                         // Hero Title
-                        h1(style="color:white;")
-                            | welcome to
-                            span &nbsp;Fourtify
+                        h2(style="color:white;")
+                            | Take the
+                            span &nbsp;weight
+                            |  out of waiting
                         // Hero Subtitle
-                        h5(style="color:white;") Fortify. Beautify. Satisfy.
+                        h5(style="color:white;") Fast. Efficient. Elegant.
         // End Of Hero Section
         // About Us Section
-        section#about.about-us
-            .container-fluid
+        section#features.features-section.section-padding
+            .container
+                // Contact Us Section Title
+                h2.section-title.features-title.text-center Features
                 .row
-                    .col-sm-6.col-xs-12.no-padding
-                        // About Us Left
-                        .about-us-left
-                            html
-                                body
-                                    .form
-                                        ul.tab-group
-                                            li.tab.active
-                                                a(href='#signup') Sign Up
-                                            li.tab
-                                                a(href='#login') Log In
-                                        .tab-content
-                                            #signup
-                                                h1 Sign Up for Free
-                                                form(action='/', method='post')
-                                                    .top-row
-                                                        .field-wrap
-                                                            label
-                                                                | First Name
-                                                                span.req *
-                                                            input(type='text', required='', autocomplete='off')
-                                                        .field-wrap
-                                                            label
-                                                                | Last Name
-                                                                span.req *
-                                                            input(type='text', required='', autocomplete='off')
-                                                    .field-wrap
-                                                        label
-                                                            | Email Address
-                                                            span.req *
-                                                        input(type='email', required='', autocomplete='off')
-                                                    .field-wrap
-                                                        label
-                                                            | Set A Password
-                                                            span.req *
-                                                        input(type='password', required='', autocomplete='off')
-                                                    button.button.button-block(type='submit') Get Started
-                                            #login
-                                                h1 Welcome Back!
-                                                form(action='/', method='post')
-                                                    .field-wrap
-                                                        label
-                                                            | Email Address
-                                                            span.req *
-                                                        input(type='email', required='', autocomplete='off')
-                                                    .field-wrap
-                                                        label
-                                                            | Password
-                                                            span.req *
-                                                        input(type='password', required='', autocomplete='off')
-                                                    p.forgot
-                                                        a(href='#') Forgot Password?
-                                                    button.button.button-block Log In
-                                        // tab-content
-                                    // /form
+                    table(style='width:100%', border='0')
+                        tr
+                            td
+                                center
+                                    .feature-table
+                                        .feature-header
+                                            .feature-title Multi-tenancy
+                            td
+                                center
+                                    .feature-table
+                                        .feature-header
+                                            .feature-title Separate interfaces
+                            td
+                                center
+                                    .feature-table
+                                        .feature-header
+                                            .feature-title  SMS & email notifications
+                        tr
+                            td
+                                center
+                                    .feature-table
+                                        .feature-header
+                                            .feature-title Check-in forms
+                            td
+                                center
+                                    .feature-table
+                                        .feature-header
+                                            .feature-title Mobile friendly
+                            td
+                                center
+                                    .feature-table
+                                        .feature-header
+                                            .feature-title Slack integration
 
-
-                    .col-sm-6.col-xs-12.no-padding
-                        // About Us Right
-                        .about-us-right
-                            // Our Features
-                            .media
-                                .media-left.dotted
-                                    i.fa.fa-lightbulb-o
-                                .media-body
-                                    // About Right Title
-                                    h3.media-heading We Advise
-                                    p
-                                        | Our expertise and experience in this field will help you make the correct decisions.
-                            // Our Features
-                            .media
-                                .media-left.dotted
-                                    i.fa.fa-pencil-square-o
-                                .media-body
-                                    h3.media-heading We Design
-                                    p
-                                        | Our team consists of very skilled, motivated, and hard working web designers.
-                            // Our Features
-                            .media
-                                .media-left
-                                    i.fa.fa-code
-                                .media-body
-                                    h3.media-heading We develop
-                                    p
-                                        | We strive to write the most flexible and optimized code.
-        // End Of About Us Section
         // Our Services
         section#service.our-services-section.section-padding.our-partners-section
             .container
@@ -421,47 +372,6 @@ html.no-js(lang="")
                                                             i.fa.fa-smile-o
                                                             | first 10 days free
                         // Pricing Table Section End
-
-        section#features.features-section.section-padding
-            .container
-                // Contact Us Section Title
-                h2.section-title.features-title.text-center Features
-                .row
-                    table(style='width:100%', border='0')
-                        tr
-                            td
-                                center
-                                    .feature-table
-                                        .feature-header
-                                            .feature-title Multi-tenancy
-                            td
-                                center
-                                    .feature-table
-                                        .feature-header
-                                            .feature-title Separate interfaces
-                            td
-                                center
-                                    .feature-table
-                                        .feature-header
-                                            .feature-title  SMS & email notifications
-                        tr
-                            td
-                                center
-                                    .feature-table
-                                        .feature-header
-                                            .feature-title Check-in forms
-                            td
-                                center
-                                    .feature-table
-                                        .feature-header
-                                            .feature-title Mobile friendly
-                            td
-                                center
-                                    .feature-table
-                                        .feature-header
-                                            .feature-title Slack integration
-
-        // End Of Pricing And Plans Section
         // Awards Section
         //-section.our-awards-section
             .container
