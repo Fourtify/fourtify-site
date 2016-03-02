@@ -64,12 +64,14 @@ html.no-js(lang="")
                                 span tify
                     #tb-nav-collapse.collapse.navbar-collapse
                         ul.nav.navbar-nav.navbar-right
-                            li.active
+                            li
                                 a.page-scroll(href="#top") Home
                             li
                                 a.page-scroll(href="#features") Features
                             li
-                                a.page-scroll(href="#team") Team
+                                a.page-scroll(href="#service") About us
+                            li
+                                a.page-scroll(href="#team") Testimonials
                             li
                                 a.page-scroll(href="#pricing") Pricing
                             //-li
@@ -185,7 +187,16 @@ html.no-js(lang="")
                 // Portfolio Section Title
                 h2.section-title.text-center Here's what our customers have to say
                 p.sub-title.text-center
-                    | Placeholder
+                    table(style='width:100%;margin-top:50px;', border='0')
+                        tr
+
+                                center
+                                    .feature-table.feature-header "This team rocks"
+                        tr
+
+                                center
+                                    .feature-table
+                                        .feature-header.feature-title "Their websites are so cool"...
                 .row
                     // Portfolio Showcase
                     .portfolio-showcase
