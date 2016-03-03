@@ -220,8 +220,8 @@ $(document).ready(function() {
 
                     map = new GMaps({
                         el: '#gmap-wrapper',
-                        lat: 22.3590557, //Replace Here Location Google Map Lat
-                        lng: 91.8213111, //Replace Here Location Google Map Lng
+                        lat: 32.8751850, //Replace Here Location Google Map Lat
+                        lng: -117.2356270, //Replace Here Location Google Map Lng
                         scrollwheel: false,
                         zoom: 17,
                         zoomControl: true,
@@ -234,8 +234,8 @@ $(document).ready(function() {
 
                     var image = '';
                     map.addMarker({
-                        lat: 22.3590557, //Replace Here Location Google Map Lat
-                        lng: 91.8213111, //Replace Here Location Google Map Lat
+                        lat: 32.8751850, //Replace Here Location Google Map Lat
+                        lng: -117.2356270, //Replace Here Location Google Map Lng
                         icon: image,
                         animation: google.maps.Animation.DROP,
                         verticalAlign: 'bottom',
