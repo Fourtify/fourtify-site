@@ -234,7 +234,6 @@ ul {
 
 .section-title {
     font-size: 30px;
-    line-height: 30px;
     color: #333333;
     margin-bottom: 50px;
     text-transform: uppercase;
@@ -243,6 +242,18 @@ ul {
     letter-spacing: 0.2rem;
     position: relative;
 }
+.section-title-midliner {
+    font-size: 15px;
+    line-height: 30px;
+    color: #333333;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    letter-spacing: 3px;
+    letter-spacing: 0.2rem;
+    text-align: center;
+}
+
 .section-title-left {
     font-size: 30px;
     line-height: 30px;

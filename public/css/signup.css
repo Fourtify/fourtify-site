@@ -106,9 +106,12 @@ label.highlight {
 }
 
 input, textarea {
+    display:inline-block;
+    text-align:center;
+    vertical-align: middle;
     font-size: 22px;
     display: block;
-    width: 100%;
+    width: 75%;
     height: 100%;
     padding: 5px 10px;
     background: none;
@@ -149,6 +152,10 @@ textarea {
 }
 
 .button {
+    padding-right: 80px;
+    float: left;
+    display:inline-block;
+    text-align:center;
     border: 0;
     outline: none;
     border-radius: 10px;
@@ -169,8 +176,10 @@ textarea {
 }
 
 .button-block {
-    display: block;
-    width: 100%;
+    display:inline-block;
+    text-align:center;
+    vertical-align: middle;
+    width: 50%;
 }
 
 .forgot {
