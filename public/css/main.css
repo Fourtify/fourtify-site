@@ -10,6 +10,8 @@
   color: #ffffff;
   border: 1px solid #ffffff;
 }
+
+
 #pricing-table {
   padding-top: 50px;
 }
@@ -36,6 +38,11 @@
   font-size: 24px;
   text-align: center;
   font-weight: 700;
+}
+
+.feature-list{
+  background-color: #3498db;
+  padding: 80px 0px;
 }
 #features .feature-table {
   padding-bottom: 30px;

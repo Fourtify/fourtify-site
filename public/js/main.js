@@ -32,7 +32,7 @@ $(window).load(function() {
     "use strict";
 
     // Parallax Effect
-    /*(function() {
+    (function() {
 
         if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
 
@@ -43,7 +43,7 @@ $(window).load(function() {
             });
         }
 
-    }());*/
+    }());
 
 
 });
@@ -83,7 +83,7 @@ $(document).ready(function() {
     $('.page-scroll').on('click', function(event) {
         var $anchor = $(this),
             headerH = '55';
-        $("body, html").stop().animate({
+        $('html , body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top - headerH + "px",
         }, 1200, 'easeInOutExpo');
 
@@ -96,7 +96,7 @@ $(document).ready(function() {
     });
 
     // jQuery ScrollSpy
-    /*$('body').scrollspy({
+    $('body').scrollspy({
         target: '.navbar-collapse',
         offset: 70
     });
@@ -193,7 +193,7 @@ $(document).ready(function() {
             });
             $(this).off('inview');
         }
-    });*/
+    });
 
     // Google Map toggle
     var $map = $('.google-map-container');
@@ -220,8 +220,8 @@ $(document).ready(function() {
 
                     map = new GMaps({
                         el: '#gmap-wrapper',
-                        lat: 32.8751850, //Replace Here Location Google Map Lat
-                        lng: -117.2356270, //Replace Here Location Google Map Lng
+                        lat: 22.3590557, //Replace Here Location Google Map Lat
+                        lng: 91.8213111, //Replace Here Location Google Map Lng
                         scrollwheel: false,
                         zoom: 17,
                         zoomControl: true,
@@ -234,8 +234,8 @@ $(document).ready(function() {
 
                     var image = '';
                     map.addMarker({
-                        lat: 32.8751850, //Replace Here Location Google Map Lat
-                        lng: -117.2356270, //Replace Here Location Google Map Lat
+                        lat: 22.3590557, //Replace Here Location Google Map Lat
+                        lng: 91.8213111, //Replace Here Location Google Map Lat
                         icon: image,
                         animation: google.maps.Animation.DROP,
                         verticalAlign: 'bottom',
