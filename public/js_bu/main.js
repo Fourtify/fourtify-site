@@ -241,7 +241,7 @@ $(document).ready(function() {
                         verticalAlign: 'bottom',
                         horizontalAlign: 'center',
                         backgroundColor: '#d9d9d9',
-                    });
+                    });‹
 
 
                     var styles = [
