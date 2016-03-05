@@ -37,10 +37,10 @@ $(window).load(function() {
         if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
 
         } else {
-            $(window).stellar({
+            /*$(window).stellar({
                 horizontalScrolling: false,
                 responsive: true,
-            });
+            });*/
         }
 
     }());
