@@ -64,7 +64,7 @@ html.no-js(lang="")
                         form.col-md-12(action='/', method='post')
                             .col-md-12
                                 br
-                                h1.section-title.signup-title Your Information
+                                .headers.section-title.signup-title Your Information
                             .col-md-12.signup-table
                                 .field-wrap.col-md-6
                                     input.signup-input(type='text', required, autocomplete='off', name="fname", placeholder="First Name")
@@ -87,7 +87,7 @@ html.no-js(lang="")
                             .col-md-12
                                 br
                                 br
-                                h1.section-title.signup-title Credit Card Information
+                                .headers.section-title.signup-title Credit Card Information
                             .col-md-12
                                 .field-wrap.col-md-12
                                     input.signup-input(type='text', autocomplete='off', name="ccnum",
@@ -96,8 +96,8 @@ html.no-js(lang="")
                                     input.signup-input(type='text', autocomplete='off', name="cvv",
                                     placeholder="CVV/CCV2")
                             .col-md-12
-                                h1#error.error(style="color:red")
-                                h1#success.success(style="color:green")
+                                .headers#error.error(style="color:red")
+                                .headers#success.success(style="color:green")
                             .col-md-12
                                 button.button.button-block(type='submit') Sign up
                                 br
