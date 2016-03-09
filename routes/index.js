@@ -23,7 +23,7 @@ router.post('/signup', function (req, res) {
             json: {
                 provider:{
                     name: req.body.company,
-                    domain: req.body.domain
+                    domain: req.body.domain.toLowerCase()
                 },
                 employee:{
                     name:{
