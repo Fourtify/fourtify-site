@@ -795,7 +795,7 @@ ul {
 }
 .single-service .media:hover {
     border: 2px solid transparent;
-    cursor: pointer;
+   /* cursor: pointer; */
 }
 .single-service .media:hover .fa:before {
     background-color: #fff;
